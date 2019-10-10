@@ -1,0 +1,23 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+
+  & .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .brand-name {
+      color: #fff;
+      font-weight: 400;
+      font-size: 1.5em;
+      margin-left: .5em;
+    }
+  }
+
+  & .nav {
+    display: flex;
+  }
+}

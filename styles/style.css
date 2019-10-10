@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
+* {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #2F303A;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav a {
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-left: 1em;
+  color: #fff;
+}
+
+.nav a:hover {
+  color: #c0c0c0;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15vh;
+}
+
+.main-header .brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header .brand .brand-name {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-left: .5em;
+}
+
+.main-header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 85vh;
+}
+
+.hero .img-wrapper {
+  width: 50%;
+  background-image: url(../img/landing-page-girl.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  margin-top: 5rem;
+}
+
+.hero .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-item-align: center;
+      align-self: center;
+  color: #fff;
+}
+
+.hero .hero-text .title {
+  font-size: 3.7em;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.hero .hero-text .subtitle {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.hero .hero-text .cta-btn {
+  color: #fff;
+  background-color: #1762A7;
+  padding: .7rem 1.5rem;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.hero .hero-text .cta-btn:hover {
+  background-color: #2180d8;
+}
+/*# sourceMappingURL=style.css.map */
