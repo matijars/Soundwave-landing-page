@@ -1,0 +1,110 @@
+.discover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85vh;
+  color: #fff;
+}
+
+.discover .discover-left .discover-title {
+  font-size: 3.7em;
+  font-weight: 500;
+}
+
+.discover .discover-left .discover-subtitle {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.discover .discover-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.5em 0;
+}
+
+.discover .microphone, .discover .albums, .discover .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #202027;
+  height: 100px;
+  width: 100px;
+  margin-right: 1em;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.discover .microphone:hover, .discover .albums:hover, .discover .more:hover {
+  background-color: #75458B;
+  border: 2px solid #fff;
+}
+
+.discover .microphone img, .discover .albums img, .discover .more img {
+  width: 2.5em;
+  margin-bottom: .5rem;
+}
+
+.discover .discover-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.discover .discover-right img {
+  width: 30vw;
+  margin-left: 2rem;
+  height: auto;
+}
+
+@media (max-width: 1093px) {
+  .discover-title {
+    font-size: 3em !important;
+  }
+  .discover-subtitle {
+    font-size: 1em !important;
+  }
+}
+
+@media (max-width: 1035px) {
+  .discover {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .discover .discover-icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .discover .discover-title {
+    text-align: center;
+  }
+  .discover .discover-subtitle {
+    text-align: center;
+  }
+  .discover .discover-right img {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=discover.css.map */

@@ -1,0 +1,96 @@
+.discover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85vh;
+  color: #fff;
+
+  & .discover-left {
+    
+    & .discover-title {
+      font-size: 3.7em;
+      font-weight: 500;
+    }
+
+    & .discover-subtitle {
+      font-size: 1.4em;
+      font-weight: 400;
+    }
+  }
+
+  & .discover-icons {
+    display: flex;
+    margin: 1.5em 0;
+  }
+
+  & .microphone, .albums, .more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202027;
+    height: 100px;
+    width: 100px;
+    margin-right: 1em;
+    transition: all .4s ease;
+
+    &:hover {
+      background-color: #75458B;
+      border: 2px solid #fff;
+    }
+  }
+
+  & .microphone img, .albums img, .more img{
+    width: 2.5em;
+    margin-bottom: .5rem;
+  }
+
+  & .discover-right {
+    display: flex;
+    justify-content: center;
+  }
+
+  & .discover-right img {
+    width: 30vw;
+    margin-left: 2rem;
+    height: auto;
+    
+    
+  }
+}
+
+@media (max-width: 1093px) {
+  .discover-title {
+    font-size: 3em !important;
+  }
+
+  .discover-subtitle {
+    font-size: 1em !important;
+  }
+}
+
+@media (max-width: 1035px) {
+  .discover {
+    flex-direction: column;
+
+    & .discover-icons {
+      justify-content: center;
+    }
+
+    & .discover-title {
+      text-align: center;
+    }
+
+    & .discover-subtitle {
+      text-align: center;
+      
+    }
+
+    & .discover-right img {
+      width: 70%;
+    }
+  }
+}
+
+
+
