@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   height: 85vh;
+  z-index: 1;
 
   & .img-wrapper {
       width: 50%;
@@ -43,4 +44,29 @@
       }
     }
   }
+}
+
+// Media querry
+
+@media (max-width: 809px) {
+  .img-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 506px) {
+  .title {
+      font-size: 3em !important;
+      align-self: center;
+  }
+
+  .subtitle {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .cta-btn {
+    align-self: center;
+  }
+  
 }
