@@ -7,6 +7,10 @@
           box-sizing: border-box;
 }
 
+.full-height {
+  position: relative;
+}
+
 body {
   min-height: 100vh;
   background-color: #2F303A;
@@ -73,18 +77,6 @@ body {
           transform: translate3d(-50%, 50%, 0);
   border-radius: 50%;
   z-index: -1;
-}
-
-@media (max-width: 809px) {
-  .img-wrapper {
-    display: none;
-  }
-}
-
-@media (max-width: 506px) {
-  .title {
-    font-size: 100px;
-  }
 }
 
 .main-header {
@@ -205,5 +197,61 @@ body {
         -ms-grid-row-align: center;
         align-self: center;
   }
+}
+
+.footer {
+  position: absolute;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  bottom: 0;
+  height: 5rem;
+  background-color: #202027;
+  padding: 0 5rem;
+}
+
+.footer .footer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: inherit;
+}
+
+.footer .footer-info a:hover {
+  color: #c0c0c0;
+}
+
+.footer .fab {
+  margin-right: .5rem;
+}
+
+.footer a {
+  margin-right: .5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.footer .twitter:hover {
+  color: #1DA1F2;
+}
+
+.footer .facebook:hover {
+  color: #4267B2;
 }
 /*# sourceMappingURL=style.css.map */

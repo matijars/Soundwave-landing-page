@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 85vh;
+  height: 75vh;
   color: #fff;
 
   & .discover-left {
@@ -51,11 +51,9 @@
   }
 
   & .discover-right img {
-    width: 30vw;
+    width: 350px;
     margin-left: 2rem;
     height: auto;
-    
-    
   }
 }
 

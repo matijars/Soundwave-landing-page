@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+.full-height {
+  position: relative;
+}
+
 body {
   min-height: 100vh;
   background-color: $bg-clr;
@@ -74,18 +78,5 @@ body {
   z-index: -1;
 }
 
-// Media querry
 
-@media (max-width: 809px) {
-  .img-wrapper {
-    display: none;
-  }
-}
-
-@media (max-width: 506px) {
-  .title {
-      font-size: 100px;
-  }
-  
-}
 

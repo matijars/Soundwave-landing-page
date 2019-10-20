@@ -1,0 +1,44 @@
+.footer {
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  height: 5rem;
+  background-color: #202027;
+  padding: 0 5rem;
+
+  & .footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+  }
+  
+  & .footer-info a:hover {
+    color: $link-hover-clr;
+  }
+
+  & .fab {
+    margin-right: .5rem; 
+  }
+  
+  & a {
+    margin-right: .5rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+
+  & .twitter:hover {
+    color: #1DA1F2;
+  }
+
+  & .facebook:hover {
+    color: #4267B2;
+  }
+}
+
