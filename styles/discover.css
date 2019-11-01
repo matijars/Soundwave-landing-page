@@ -49,6 +49,7 @@
   margin-right: 1em;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
+  cursor: pointer;
 }
 
 .discover .microphone:hover, .discover .albums:hover, .discover .more:hover {

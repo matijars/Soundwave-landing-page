@@ -8,7 +8,7 @@
   bottom: 0;
   height: 5rem;
   background-color: #202027;
-  padding: 0 5rem;
+  
 
   & .footer-items {
     display: flex;
@@ -26,11 +26,15 @@
   }
   
   & a {
-    margin-right: .5rem;
+    margin-left: .5rem;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
     font-size: 1.2em;
+
+    &:first-child {
+      margin-left: 0px;
+    }
   }
 
   & .twitter:hover {
