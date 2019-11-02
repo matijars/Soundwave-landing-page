@@ -20,6 +20,7 @@
     max-width: 50%;
     padding: 2rem 4rem;
     border-radius: 20px;
+    margin-left: 2rem;
 
     & .input-group {
     margin-bottom: 2rem;
@@ -50,6 +51,20 @@
       &:focus {
         border-color: #596da0;
       }
+    }
+  }
+}
+
+@media (max-width: 940px) {
+  .join {
+    flex-direction: column;
+    justify-content: space-around;
+
+    & .join-form {
+      
+      width: 80vw;
+      max-width: 80%;
+      
     }
   }
 }

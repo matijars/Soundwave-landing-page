@@ -27,6 +27,7 @@
   max-width: 50%;
   padding: 2rem 4rem;
   border-radius: 20px;
+  margin-left: 2rem;
 }
 
 .join .join-form .input-group {
@@ -63,5 +64,20 @@
 
 .join .join-form input:focus {
   border-color: #596da0;
+}
+
+@media (max-width: 940px) {
+  .join {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .join .join-form {
+    width: 80vw;
+    max-width: 80%;
+  }
 }
 /*# sourceMappingURL=join.css.map */

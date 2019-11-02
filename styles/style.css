@@ -99,6 +99,20 @@ body {
   z-index: -1;
 }
 
+.join-page-circle-1::after {
+  width: 30vw;
+  height: 30vw;
+  top: -13vh;
+  left: 20vw;
+}
+
+.join-page-circle-2::after {
+  width: 35vw;
+  height: 35vw;
+  bottom: 2vh;
+  left: -5vw;
+}
+
 .main-header {
   display: -webkit-box;
   display: -ms-flexbox;
